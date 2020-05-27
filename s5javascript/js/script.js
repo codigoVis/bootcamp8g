@@ -1,5 +1,5 @@
 var numberOne= 8;
-var numberTwo=6;
+var numberTwo=30;
 
 var totalSuma = numberOne + numberTwo;
 console.log("El resultado de la suma es ",totalSuma);
@@ -15,9 +15,4 @@ console.log("El resultado de la division es ",totalDiv);
 
 var totalRes = numberOne % numberTwo;
 console.log("El resultado del  Modulo es ",totalRes);
-
-
-
-
-
 

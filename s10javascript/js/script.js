@@ -41,5 +41,8 @@ if(nameCaracter > 3){
  var frase=prompt("Escriba una frase");
  var Caracterfrase=prompt("Escriba un caracter");
 
- 
-
+var string = "vicente jb"
+var array=[];
+for (var value of string){
+     console.log(letra)
+}

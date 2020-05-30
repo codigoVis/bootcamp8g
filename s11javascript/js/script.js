@@ -82,11 +82,10 @@ const getUserOperation = (selectedOperation) => {
 
 
 
-var numero=prompt("ingrese un numero del 0 al 50")
-if (numero>=0 || numero<=50 ){
-
-    for(let i=0; i<numero; i++){
-       
-
+var numero=parseInt(prompt("ingrese un numero del 0 al 50"))
+for(let i=0; i<numero; i++){
+    if ( i%2==0){
+        console.log( ""+i+"")
     }
-}
+    
+ }

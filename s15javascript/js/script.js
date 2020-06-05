@@ -73,18 +73,15 @@ la función debe extraer los autos del array cars, cuyo año sea mayor al indica
 por cada auto extraído, mostrar al usuario un mensaje que diga
  "Opción ${indice}: ${fabricante del auto} ${nombre del auto} del año ${año de fabricación}, con ${hp} caballos de fuerza"*/
 
- const carUserData=(cars)=>{
+ const carUserData=()=>{
      let carYear = parseInt(prompt("Ingrese un año por favor "))
     let filterCarsData=ArrayCars.filter((cars,index)=>{
         return parseInt(cars.year)>=carYear
     })
- 
+    filterCarsData.forEach(item=> {
+        console.log(item)
+    })
  }
- filterCarsData=forEach(cars=> {
-    console.log(cars.years)
-})
-console.log(filterCarsData)
+
 
 carUserData()
-/*
-});*/ 
